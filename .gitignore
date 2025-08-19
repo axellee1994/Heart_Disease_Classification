@@ -1,6 +1,6 @@
 # Ignore virtual environment
-Env/
-Vent/
+env/
+vent/
 .env
 .venv/
 
