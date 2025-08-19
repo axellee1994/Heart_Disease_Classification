@@ -1,0 +1,12 @@
+prefix=/home/axlee/Desktop/Heart_Disease_Classification/env
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+gbmbackendspath=/home/axlee/Desktop/Heart_Disease_Classification/env/lib/gbm
+
+Name: gbm
+Description: Mesa gbm library
+Version: 25.1.5
+Libs: -L${libdir} -lgbm
+Libs.private: -ldl
+Cflags: -I${includedir}

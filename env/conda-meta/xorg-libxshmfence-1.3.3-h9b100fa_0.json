@@ -1,0 +1,73 @@
+{
+  "build": "h9b100fa_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/xorg-libxshmfence-1.3.3-h9b100fa_0",
+  "files": [
+    "include/X11/xshmfence.h",
+    "lib/libxshmfence.so",
+    "lib/libxshmfence.so.1",
+    "lib/libxshmfence.so.1.0.0",
+    "lib/pkgconfig/xshmfence.pc"
+  ],
+  "fn": "xorg-libxshmfence-1.3.3-h9b100fa_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/xorg-libxshmfence-1.3.3-h9b100fa_0",
+    "type": 1
+  },
+  "md5": "e11a74f4680d455c64f7d0f74266766e",
+  "name": "xorg-libxshmfence",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/xorg-libxshmfence-1.3.3-h9b100fa_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/xshmfence.h",
+        "path_type": "hardlink",
+        "sha256": "7f22ca70a677ad82908a5ef7d72aea7ea533c83c866a2bb0ea1a3de9e164db48",
+        "sha256_in_prefix": "7f22ca70a677ad82908a5ef7d72aea7ea533c83c866a2bb0ea1a3de9e164db48",
+        "size_in_bytes": 1719
+      },
+      {
+        "_path": "lib/libxshmfence.so",
+        "path_type": "softlink",
+        "sha256": "a57a62e8c4d9361057988c5eb2f8a5be6e0b61fc4083fc203202766740bb51da",
+        "size_in_bytes": 16152
+      },
+      {
+        "_path": "lib/libxshmfence.so.1",
+        "path_type": "softlink",
+        "sha256": "a57a62e8c4d9361057988c5eb2f8a5be6e0b61fc4083fc203202766740bb51da",
+        "size_in_bytes": 16152
+      },
+      {
+        "_path": "lib/libxshmfence.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "a57a62e8c4d9361057988c5eb2f8a5be6e0b61fc4083fc203202766740bb51da",
+        "sha256_in_prefix": "a57a62e8c4d9361057988c5eb2f8a5be6e0b61fc4083fc203202766740bb51da",
+        "size_in_bytes": 16152
+      },
+      {
+        "_path": "lib/pkgconfig/xshmfence.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xorg-libxshmfence_1745958625945/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "cd54a0176c207d5f429b6934a5902d3ef91be4300a8bbde53e74a1fcd2e59877",
+        "sha256_in_prefix": "ecad39c6c1d6e792ad9ea796cb3bd00fed17553c16d8824be0d7109a1d4784ec",
+        "size_in_bytes": 754
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2682a31988c818d445386451b199f197312bc29cf26101ffafd110edc4bf9d04",
+  "size": 11736,
+  "subdir": "linux-64",
+  "timestamp": 1745958659000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxshmfence-1.3.3-h9b100fa_0.conda",
+  "version": "1.3.3"
+}

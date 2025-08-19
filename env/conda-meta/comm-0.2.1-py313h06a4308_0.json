@@ -1,0 +1,131 @@
+{
+  "build": "py313h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "traitlets >=4"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/comm-0.2.1-py313h06a4308_0",
+  "files": [
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/METADATA",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/RECORD",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/WHEEL",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/comm-0.2.1.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/comm/__init__.py",
+    "lib/python3.13/site-packages/comm/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/comm/__pycache__/base_comm.cpython-313.pyc",
+    "lib/python3.13/site-packages/comm/base_comm.py",
+    "lib/python3.13/site-packages/comm/py.typed"
+  ],
+  "fn": "comm-0.2.1-py313h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/comm-0.2.1-py313h06a4308_0",
+    "type": 1
+  },
+  "md5": "c517dd2feb114ab437e4c17405df07f5",
+  "name": "comm",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/comm-0.2.1-py313h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c1df2f32838b7b5f77739ed103f2bb02777ecc7df0e7ef410bffe168d3613e6c",
+        "sha256_in_prefix": "c1df2f32838b7b5f77739ed103f2bb02777ecc7df0e7ef410bffe168d3613e6c",
+        "size_in_bytes": 3689
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0ebd1a1031bea49abb00ef34e381014d70fc3081f6d8e64c8b8ae43e4e82a0e4",
+        "sha256_in_prefix": "0ebd1a1031bea49abb00ef34e381014d70fc3081f6d8e64c8b8ae43e4e82a0e4",
+        "size_in_bytes": 866
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c866289f9ca9c569062df435b40bf1f70cb980bf262ac7b134d68baa7a0ac1e5",
+        "sha256_in_prefix": "c866289f9ca9c569062df435b40bf1f70cb980bf262ac7b134d68baa7a0ac1e5",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm-0.2.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "sha256_in_prefix": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f96fbe16c501eb282ae8f3668d0ad3b4a31be71452b2d5d3c9b022c928a3171",
+        "sha256_in_prefix": "1f96fbe16c501eb282ae8f3668d0ad3b4a31be71452b2d5d3c9b022c928a3171",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b688da8dc016700f8b2a9bc4683933d6ac28ca4ac090bbd64a5188344253885",
+        "sha256_in_prefix": "4b688da8dc016700f8b2a9bc4683933d6ac28ca4ac090bbd64a5188344253885",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm/__pycache__/base_comm.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9e5aa897d88649d08bc7244af5d39539d6bca8af9d865db015169828de0561c",
+        "sha256_in_prefix": "d9e5aa897d88649d08bc7244af5d39539d6bca8af9d865db015169828de0561c",
+        "size_in_bytes": 12821
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm/base_comm.py",
+        "path_type": "hardlink",
+        "sha256": "3d9afc063fa99f2e31e2d2bd4d6e875feacff13238b92385fcee8e6df96a1029",
+        "sha256_in_prefix": "3d9afc063fa99f2e31e2d2bd4d6e875feacff13238b92385fcee8e6df96a1029",
+        "size_in_bytes": 10153
+      },
+      {
+        "_path": "lib/python3.13/site-packages/comm/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7650429136e1cf23358695e931c6d3926ab4a65ffa7ec7ebc6156b2e17c698fa",
+  "size": 16890,
+  "subdir": "linux-64",
+  "timestamp": 1728387113000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/comm-0.2.1-py313h06a4308_0.conda",
+  "version": "0.2.1"
+}

@@ -1,0 +1,82 @@
+{
+  "build": "h5eee18b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libxcb >=1.17.0,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/xcb-util-keysyms-0.4.1-h5eee18b_0",
+  "files": [
+    "include/xcb/xcb_keysyms.h",
+    "lib/libxcb-keysyms.a",
+    "lib/libxcb-keysyms.so",
+    "lib/libxcb-keysyms.so.1",
+    "lib/libxcb-keysyms.so.1.0.0",
+    "lib/pkgconfig/xcb-keysyms.pc"
+  ],
+  "fn": "xcb-util-keysyms-0.4.1-h5eee18b_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/xcb-util-keysyms-0.4.1-h5eee18b_0",
+    "type": 1
+  },
+  "md5": "f3f57b900e170bd9add5f77f122603f2",
+  "name": "xcb-util-keysyms",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/xcb-util-keysyms-0.4.1-h5eee18b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/xcb/xcb_keysyms.h",
+        "path_type": "hardlink",
+        "sha256": "1424d52012da8ce66d2868307b48815078feb3a152ccffbbf7e855562b85fb8a",
+        "sha256_in_prefix": "1424d52012da8ce66d2868307b48815078feb3a152ccffbbf7e855562b85fb8a",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "lib/libxcb-keysyms.a",
+        "path_type": "hardlink",
+        "sha256": "de5ff67e36b102ee224b82f4fcc5beb612512b2c5717fcee22ba2fc7e7b547c0",
+        "sha256_in_prefix": "de5ff67e36b102ee224b82f4fcc5beb612512b2c5717fcee22ba2fc7e7b547c0",
+        "size_in_bytes": 11204
+      },
+      {
+        "_path": "lib/libxcb-keysyms.so",
+        "path_type": "softlink",
+        "sha256": "8f673fa9ec4b4bb99c8a1d4509c494bf2da61ae2248001b4b637aad7b03f215a",
+        "size_in_bytes": 16280
+      },
+      {
+        "_path": "lib/libxcb-keysyms.so.1",
+        "path_type": "softlink",
+        "sha256": "8f673fa9ec4b4bb99c8a1d4509c494bf2da61ae2248001b4b637aad7b03f215a",
+        "size_in_bytes": 16280
+      },
+      {
+        "_path": "lib/libxcb-keysyms.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "8f673fa9ec4b4bb99c8a1d4509c494bf2da61ae2248001b4b637aad7b03f215a",
+        "sha256_in_prefix": "8f673fa9ec4b4bb99c8a1d4509c494bf2da61ae2248001b4b637aad7b03f215a",
+        "size_in_bytes": 16280
+      },
+      {
+        "_path": "lib/pkgconfig/xcb-keysyms.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xcb-util-keysyms_1746030395002/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "a0d890e3a2412645a62b83bac78f156ef1ea25d4c7d82b1b756fb4b3b7580697",
+        "sha256_in_prefix": "552a7f4eea234505011c758bcb58d9c7114ff8bac88ff58457e9695cbeb47851",
+        "size_in_bytes": 478
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6c1c49583e7837f367a55c99f5a0b10d532566270e923082e15dfe309762756e",
+  "size": 13288,
+  "subdir": "linux-64",
+  "timestamp": 1746030421000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/xcb-util-keysyms-0.4.1-h5eee18b_0.conda",
+  "version": "0.4.1"
+}

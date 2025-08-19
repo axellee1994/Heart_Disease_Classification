@@ -1,0 +1,7 @@
+prefix=/home/axlee/Desktop/Heart_Disease_Classification/env
+includedir=${prefix}/include
+ 
+Name: DMXProto
+Description: DMX extension headers
+Version: 2.3.1
+Cflags: -I${includedir}

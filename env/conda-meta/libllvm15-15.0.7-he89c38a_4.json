@@ -1,0 +1,62 @@
+{
+  "build": "he89c38a_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "zstd >=1.5.2,<1.6.0a0",
+    "libffi >=3.4,<4.0a0",
+    "libxml2 >=2.13.1,<2.14.0a0"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/libllvm15-15.0.7-he89c38a_4",
+  "files": [
+    "lib/libLLVM-15.so",
+    "lib/libLTO.so.15",
+    "lib/libRemarks.so.15"
+  ],
+  "fn": "libllvm15-15.0.7-he89c38a_4.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/libllvm15-15.0.7-he89c38a_4",
+    "type": 1
+  },
+  "md5": "36dd69148ac011ba6e1dae6977511632",
+  "name": "libllvm15",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/libllvm15-15.0.7-he89c38a_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libLLVM-15.so",
+        "path_type": "hardlink",
+        "sha256": "6d473d28cbfac50d806241ed5824912bdadb32650eeb822099dd313cf014d078",
+        "sha256_in_prefix": "6d473d28cbfac50d806241ed5824912bdadb32650eeb822099dd313cf014d078",
+        "size_in_bytes": 140442176
+      },
+      {
+        "_path": "lib/libLTO.so.15",
+        "path_type": "hardlink",
+        "sha256": "a5b5a78e86de76a4e40c58c5ecf8a6a6a3a433af2c431cf5e1435d571a2bc73c",
+        "sha256_in_prefix": "a5b5a78e86de76a4e40c58c5ecf8a6a6a3a433af2c431cf5e1435d571a2bc73c",
+        "size_in_bytes": 104696
+      },
+      {
+        "_path": "lib/libRemarks.so.15",
+        "path_type": "hardlink",
+        "sha256": "47bedd5394de2018fc7ced7b735dc14faed3a8a7d8b5360fe23a1b629dae4619",
+        "sha256_in_prefix": "47bedd5394de2018fc7ced7b735dc14faed3a8a7d8b5360fe23a1b629dae4619",
+        "size_in_bytes": 15232
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0a541d508e310bef01e5f67ee173ec0aa4d9c6d0a1ed4a536ccc8b8862ce12a2",
+  "size": 37158262,
+  "subdir": "linux-64",
+  "timestamp": 1730400002000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/libllvm15-15.0.7-he89c38a_4.conda",
+  "version": "15.0.7"
+}

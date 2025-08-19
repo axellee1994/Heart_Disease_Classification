@@ -1,0 +1,1583 @@
+{
+  "build": "h10a5587_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "qt >=6.7.3,<7",
+    "qt-main >=6.7.3,<7"
+  ],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "zlib >=1.2.13,<1.3.0a0",
+    "jpeg >=9e,<10a",
+    "__glibc >=2.17,<3.0.a0",
+    "libpng >=1.6.39,<1.7.0a0",
+    "icu >=73.1,<74.0a0",
+    "zstd >=1.5.6,<1.6.0a0",
+    "fontconfig >=2.14.1,<3.0a0",
+    "pcre2 >=10.42,<10.43.0a0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "freetype >=2.13.3,<3.0a0",
+    "libgl >=1.7.0,<2.0a0",
+    "libxcb >=1.17.0,<2.0a0",
+    "libglib >=2.84.2,<3.0a0",
+    "openssl >=3.0.17,<4.0a0",
+    "libkrb5 >=1.21.3,<1.22.0a0",
+    "sqlite >=3.50.2,<4.0a0",
+    "libcups 2.*",
+    "libegl >=1.7.0,<2.0a0",
+    "xorg-libice >=1.1.2,<2.0a0",
+    "mysql 8.4.*",
+    "libpq >=17.4,<18.0a0",
+    "xcb-util-image >=0.4.0,<0.5.0a0",
+    "xcb-util-renderutil >=0.3.10,<0.4.0a0",
+    "xorg-libsm >=1.2.6,<2.0a0",
+    "libxkbcommon >=1.9.1,<2.0a0",
+    "xcb-util-cursor >=0.1.5,<0.2.0a0",
+    "xcb-util-keysyms >=0.4.1,<0.5.0a0",
+    "xcb-util-wm >=0.4.2,<0.5.0a0",
+    "mesalib 25.*",
+    "libcups >=2.4.2,<2.5.0a0"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/qtbase-6.7.3-h10a5587_4",
+  "files": [
+    "bin/qt6.conf",
+    "lib/libQt6Concurrent.so.6",
+    "lib/libQt6Concurrent.so.6.7.3",
+    "lib/libQt6Core.so.6",
+    "lib/libQt6Core.so.6.7.3",
+    "lib/libQt6DBus.so.6",
+    "lib/libQt6DBus.so.6.7.3",
+    "lib/libQt6DeviceDiscoverySupport.a",
+    "lib/libQt6EglFSDeviceIntegration.so.6",
+    "lib/libQt6EglFSDeviceIntegration.so.6.7.3",
+    "lib/libQt6ExampleIcons.a",
+    "lib/libQt6FbSupport.a",
+    "lib/libQt6Gui.so.6",
+    "lib/libQt6Gui.so.6.7.3",
+    "lib/libQt6InputSupport.a",
+    "lib/libQt6Network.so.6",
+    "lib/libQt6Network.so.6.7.3",
+    "lib/libQt6OpenGL.so.6",
+    "lib/libQt6OpenGL.so.6.7.3",
+    "lib/libQt6OpenGLWidgets.so.6",
+    "lib/libQt6OpenGLWidgets.so.6.7.3",
+    "lib/libQt6PrintSupport.so.6",
+    "lib/libQt6PrintSupport.so.6.7.3",
+    "lib/libQt6Sql.so.6",
+    "lib/libQt6Sql.so.6.7.3",
+    "lib/libQt6Test.so.6",
+    "lib/libQt6Test.so.6.7.3",
+    "lib/libQt6Widgets.so.6",
+    "lib/libQt6Widgets.so.6.7.3",
+    "lib/libQt6XcbQpa.so.6",
+    "lib/libQt6XcbQpa.so.6.7.3",
+    "lib/libQt6Xml.so.6",
+    "lib/libQt6Xml.so.6.7.3",
+    "lib/qt6/plugins/egldeviceintegrations/libqeglfs-emu-integration.so",
+    "lib/qt6/plugins/egldeviceintegrations/libqeglfs-x11-integration.so",
+    "lib/qt6/plugins/generic/libqevdevkeyboardplugin.so",
+    "lib/qt6/plugins/generic/libqevdevmouseplugin.so",
+    "lib/qt6/plugins/generic/libqevdevtabletplugin.so",
+    "lib/qt6/plugins/generic/libqevdevtouchplugin.so",
+    "lib/qt6/plugins/generic/libqtuiotouchplugin.so",
+    "lib/qt6/plugins/imageformats/libqgif.so",
+    "lib/qt6/plugins/imageformats/libqico.so",
+    "lib/qt6/plugins/imageformats/libqjpeg.so",
+    "lib/qt6/plugins/networkinformation/libqglib.so",
+    "lib/qt6/plugins/networkinformation/libqnetworkmanager.so",
+    "lib/qt6/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so",
+    "lib/qt6/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so",
+    "lib/qt6/plugins/platforms/libqeglfs.so",
+    "lib/qt6/plugins/platforms/libqlinuxfb.so",
+    "lib/qt6/plugins/platforms/libqminimal.so",
+    "lib/qt6/plugins/platforms/libqminimalegl.so",
+    "lib/qt6/plugins/platforms/libqoffscreen.so",
+    "lib/qt6/plugins/platforms/libqvnc.so",
+    "lib/qt6/plugins/platforms/libqxcb.so",
+    "lib/qt6/plugins/platformthemes/libqxdgdesktopportal.so",
+    "lib/qt6/plugins/printsupport/libcupsprintersupport.so",
+    "lib/qt6/plugins/sqldrivers/libqsqlite.so",
+    "lib/qt6/plugins/sqldrivers/libqsqlmysql.so",
+    "lib/qt6/plugins/sqldrivers/libqsqlpsql.so",
+    "lib/qt6/plugins/tls/libqcertonlybackend.so",
+    "lib/qt6/plugins/tls/libqopensslbackend.so",
+    "lib/qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so",
+    "lib/qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so",
+    "share/doc/qt6/config/exampleurl-qt3d.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtactiveqt.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtandroidextras.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtbase.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtcharts.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtconnectivity.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtdatavis3d.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtdeclarative.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtdoc.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtgamepad.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtgraphicaleffects.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtimageformats.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtlocation.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtlottie.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtmacextras.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtmultimedia.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtnetworkauth.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtpositioning.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtpurchasing.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtquickcontrols.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtquickcontrols2.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtremoteobjects.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtscript.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtscxml.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtsensors.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtserialbus.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtserialport.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtspeech.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtsvg.qdocconf",
+    "share/doc/qt6/config/exampleurl-qttools.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtvirtualkeyboard.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwayland.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwebchannel.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwebengine.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwebsockets.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwebview.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtwinextras.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtx11extras.qdocconf",
+    "share/doc/qt6/config/exampleurl-qtxmlpatterns.qdocconf",
+    "share/doc/qt6/global/compat.qdocconf",
+    "share/doc/qt6/global/config.qdocconf",
+    "share/doc/qt6/global/externalsites.qdocconf",
+    "share/doc/qt6/global/externalsites/external-resources.qdoc",
+    "share/doc/qt6/global/externalsites/qt-webpages.qdoc",
+    "share/doc/qt6/global/externalsites/qtcreator.qdoc",
+    "share/doc/qt6/global/externalsites/qtdesignstudio.qdoc",
+    "share/doc/qt6/global/externalsites/rfc.qdoc",
+    "share/doc/qt6/global/fileextensions.qdocconf",
+    "share/doc/qt6/global/html-config.qdocconf",
+    "share/doc/qt6/global/html-footer-online.qdocconf",
+    "share/doc/qt6/global/html-footer.qdocconf",
+    "share/doc/qt6/global/html-header-offline.qdocconf",
+    "share/doc/qt6/global/html-header-online.qdocconf",
+    "share/doc/qt6/global/htmltabs.qdocconf",
+    "share/doc/qt6/global/includes-online/search.qdoc",
+    "share/doc/qt6/global/includes/cli-build-cmake.qdocinc",
+    "share/doc/qt6/global/includes/corelib/port-from-qregexp.qdocinc",
+    "share/doc/qt6/global/includes/examples-run.qdocinc",
+    "share/doc/qt6/global/includes/module-use.qdocinc",
+    "share/doc/qt6/global/includes/standardpath/functiondocs.qdocinc",
+    "share/doc/qt6/global/macros-online.qdocconf",
+    "share/doc/qt6/global/macros.qdocconf",
+    "share/doc/qt6/global/manifest-meta.qdocconf",
+    "share/doc/qt6/global/qt-cpp-defines.qdocconf",
+    "share/doc/qt6/global/qt-html-templates-offline-simple.qdocconf",
+    "share/doc/qt6/global/qt-html-templates-offline.qdocconf",
+    "share/doc/qt6/global/qt-html-templates-online.qdocconf",
+    "share/doc/qt6/global/qt-module-defaults-offline.qdocconf",
+    "share/doc/qt6/global/qt-module-defaults-online-commercial.qdocconf",
+    "share/doc/qt6/global/qt-module-defaults-online.qdocconf",
+    "share/doc/qt6/global/qt-module-defaults.qdocconf",
+    "share/doc/qt6/global/snippets/code/doc_src_port_from_qregexp.cpp",
+    "share/doc/qt6/global/template/images/Qt-dark_gradient.png",
+    "share/doc/qt6/global/template/images/Qt-footer-bg.jpg",
+    "share/doc/qt6/global/template/images/Qt-footer_shadow.png",
+    "share/doc/qt6/global/template/images/Qt-gradient.png",
+    "share/doc/qt6/global/template/images/Qt-header-bg.jpg",
+    "share/doc/qt6/global/template/images/Qt-logo.png",
+    "share/doc/qt6/global/template/images/arrow.png",
+    "share/doc/qt6/global/template/images/arrow_bc.png",
+    "share/doc/qt6/global/template/images/arrow_down.png",
+    "share/doc/qt6/global/template/images/bg_l.png",
+    "share/doc/qt6/global/template/images/bg_l_blank.png",
+    "share/doc/qt6/global/template/images/bg_ll_blank.png",
+    "share/doc/qt6/global/template/images/bg_r.png",
+    "share/doc/qt6/global/template/images/bg_ul_blank.png",
+    "share/doc/qt6/global/template/images/bgrContent.png",
+    "share/doc/qt6/global/template/images/blu_dot.png",
+    "share/doc/qt6/global/template/images/box_bg.png",
+    "share/doc/qt6/global/template/images/breadcrumb.png",
+    "share/doc/qt6/global/template/images/btn_next.png",
+    "share/doc/qt6/global/template/images/btn_prev.png",
+    "share/doc/qt6/global/template/images/bullet_dn.png",
+    "share/doc/qt6/global/template/images/bullet_gt.png",
+    "share/doc/qt6/global/template/images/bullet_sq.png",
+    "share/doc/qt6/global/template/images/bullet_up.png",
+    "share/doc/qt6/global/template/images/feedbackground.png",
+    "share/doc/qt6/global/template/images/header_bg.png",
+    "share/doc/qt6/global/template/images/home.png",
+    "share/doc/qt6/global/template/images/horBar.png",
+    "share/doc/qt6/global/template/images/ico_note.png",
+    "share/doc/qt6/global/template/images/ico_note_attention.png",
+    "share/doc/qt6/global/template/images/ico_out.png",
+    "share/doc/qt6/global/template/images/logo.png",
+    "share/doc/qt6/global/template/images/page.png",
+    "share/doc/qt6/global/template/images/page_bg.png",
+    "share/doc/qt6/global/template/images/spinner.gif",
+    "share/doc/qt6/global/template/images/sprites-combined.png",
+    "share/doc/qt6/global/template/scripts/extras.js",
+    "share/doc/qt6/global/template/scripts/main.js",
+    "share/doc/qt6/global/template/style/cookie-confirm.css",
+    "share/doc/qt6/global/template/style/cookiebar-x.png",
+    "share/doc/qt6/global/template/style/doc_search.png",
+    "share/doc/qt6/global/template/style/gsc.css",
+    "share/doc/qt6/global/template/style/htmltabs.css",
+    "share/doc/qt6/global/template/style/icomoon.eot",
+    "share/doc/qt6/global/template/style/icomoon.svg",
+    "share/doc/qt6/global/template/style/icomoon.ttf",
+    "share/doc/qt6/global/template/style/icomoon.woff",
+    "share/doc/qt6/global/template/style/list_arrow.png",
+    "share/doc/qt6/global/template/style/list_expand.png",
+    "share/doc/qt6/global/template/style/offline-dark.css",
+    "share/doc/qt6/global/template/style/offline-simple.css",
+    "share/doc/qt6/global/template/style/offline.css",
+    "share/doc/qt6/global/template/style/online.css",
+    "share/doc/qt6/global/template/style/tech_preview.svg",
+    "share/doc/qt6/global/template/style/theqtcompany.png",
+    "share/doc/qt6/global/warninglimit.qdocconf"
+  ],
+  "fn": "qtbase-6.7.3-h10a5587_4.conda",
+  "license": "LGPL-3.0-only",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/qtbase-6.7.3-h10a5587_4",
+    "type": 1
+  },
+  "md5": "3e0323cfdfccfdfd2202204da27f4992",
+  "name": "qtbase",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/qtbase-6.7.3-h10a5587_4.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/qt6.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/qtbase_1753959382176/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "58f90cdd08f47bfd2a081852c1fceb8bac01bd2534a3ae5c68d1c1fca6fcb028",
+        "sha256_in_prefix": "9e293b632cf328baf37837c6d1df129d4c8a952bc0eba50aeea5f0c136ba7d15",
+        "size_in_bytes": 3638
+      },
+      {
+        "_path": "lib/libQt6Concurrent.so.6",
+        "path_type": "softlink",
+        "sha256": "4b8c23241e41c1be2d9c639c0b7ddcc7be943e3ca3fb1e3b20254a7021a469da",
+        "size_in_bytes": 33352
+      },
+      {
+        "_path": "lib/libQt6Concurrent.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "4b8c23241e41c1be2d9c639c0b7ddcc7be943e3ca3fb1e3b20254a7021a469da",
+        "sha256_in_prefix": "4b8c23241e41c1be2d9c639c0b7ddcc7be943e3ca3fb1e3b20254a7021a469da",
+        "size_in_bytes": 33352
+      },
+      {
+        "_path": "lib/libQt6Core.so.6",
+        "path_type": "softlink",
+        "sha256": "c73f55476fcbc8c9507ce17af6a50b08535451ecd492fe66ff6a51c9050a9f3d",
+        "size_in_bytes": 7668472
+      },
+      {
+        "_path": "lib/libQt6Core.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "c73f55476fcbc8c9507ce17af6a50b08535451ecd492fe66ff6a51c9050a9f3d",
+        "sha256_in_prefix": "c73f55476fcbc8c9507ce17af6a50b08535451ecd492fe66ff6a51c9050a9f3d",
+        "size_in_bytes": 7668472
+      },
+      {
+        "_path": "lib/libQt6DBus.so.6",
+        "path_type": "softlink",
+        "sha256": "1f76375b23a5ff86fa875293d3671ea320d6fbd1c1cfc7e6a3d4d2b286c138fa",
+        "size_in_bytes": 1103008
+      },
+      {
+        "_path": "lib/libQt6DBus.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "1f76375b23a5ff86fa875293d3671ea320d6fbd1c1cfc7e6a3d4d2b286c138fa",
+        "sha256_in_prefix": "1f76375b23a5ff86fa875293d3671ea320d6fbd1c1cfc7e6a3d4d2b286c138fa",
+        "size_in_bytes": 1103008
+      },
+      {
+        "_path": "lib/libQt6DeviceDiscoverySupport.a",
+        "path_type": "hardlink",
+        "sha256": "93ebc1afc61aa10404ad774b6fef5c6f01d50f46951a78e48679ae73dece2917",
+        "sha256_in_prefix": "93ebc1afc61aa10404ad774b6fef5c6f01d50f46951a78e48679ae73dece2917",
+        "size_in_bytes": 50952
+      },
+      {
+        "_path": "lib/libQt6EglFSDeviceIntegration.so.6",
+        "path_type": "softlink",
+        "sha256": "95eac6e9886ecd7bd405262ab8a028950af72c80645d7e4117b68a8b58926e2b",
+        "size_in_bytes": 417152
+      },
+      {
+        "_path": "lib/libQt6EglFSDeviceIntegration.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "95eac6e9886ecd7bd405262ab8a028950af72c80645d7e4117b68a8b58926e2b",
+        "sha256_in_prefix": "95eac6e9886ecd7bd405262ab8a028950af72c80645d7e4117b68a8b58926e2b",
+        "size_in_bytes": 417152
+      },
+      {
+        "_path": "lib/libQt6ExampleIcons.a",
+        "path_type": "hardlink",
+        "sha256": "9d78d08ce7ec6136794498cb03e869746a86b1ff4d4dca4ecd1f537f2218bbc3",
+        "sha256_in_prefix": "9d78d08ce7ec6136794498cb03e869746a86b1ff4d4dca4ecd1f537f2218bbc3",
+        "size_in_bytes": 282760
+      },
+      {
+        "_path": "lib/libQt6FbSupport.a",
+        "path_type": "hardlink",
+        "sha256": "c8383a27da3b0309cab81a53c8e7905f559d43e6df77db32f628aa3ce1186e12",
+        "sha256_in_prefix": "c8383a27da3b0309cab81a53c8e7905f559d43e6df77db32f628aa3ce1186e12",
+        "size_in_bytes": 129476
+      },
+      {
+        "_path": "lib/libQt6Gui.so.6",
+        "path_type": "softlink",
+        "sha256": "a34d460ce999fbac6d0d1b5b6449f46454a70b8e5063914c04ea0b92bf6501b5",
+        "size_in_bytes": 10022664
+      },
+      {
+        "_path": "lib/libQt6Gui.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "a34d460ce999fbac6d0d1b5b6449f46454a70b8e5063914c04ea0b92bf6501b5",
+        "sha256_in_prefix": "a34d460ce999fbac6d0d1b5b6449f46454a70b8e5063914c04ea0b92bf6501b5",
+        "size_in_bytes": 10022664
+      },
+      {
+        "_path": "lib/libQt6InputSupport.a",
+        "path_type": "hardlink",
+        "sha256": "b6f23387ad0c85c8e48d3db8b9785b41f96d66db0d85c7feb4e3d03ca32e4262",
+        "sha256_in_prefix": "b6f23387ad0c85c8e48d3db8b9785b41f96d66db0d85c7feb4e3d03ca32e4262",
+        "size_in_bytes": 317104
+      },
+      {
+        "_path": "lib/libQt6Network.so.6",
+        "path_type": "softlink",
+        "sha256": "323ec507c5cec3b152aee347aca5d32512f6365a4fe0908e0663defb8ff124b2",
+        "size_in_bytes": 2499840
+      },
+      {
+        "_path": "lib/libQt6Network.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "323ec507c5cec3b152aee347aca5d32512f6365a4fe0908e0663defb8ff124b2",
+        "sha256_in_prefix": "323ec507c5cec3b152aee347aca5d32512f6365a4fe0908e0663defb8ff124b2",
+        "size_in_bytes": 2499840
+      },
+      {
+        "_path": "lib/libQt6OpenGL.so.6",
+        "path_type": "softlink",
+        "sha256": "e47c2fdc8b91a8a8d44da3209fc0498ee1b7b761f9276f35331361e3024e08c9",
+        "size_in_bytes": 869736
+      },
+      {
+        "_path": "lib/libQt6OpenGL.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "e47c2fdc8b91a8a8d44da3209fc0498ee1b7b761f9276f35331361e3024e08c9",
+        "sha256_in_prefix": "e47c2fdc8b91a8a8d44da3209fc0498ee1b7b761f9276f35331361e3024e08c9",
+        "size_in_bytes": 869736
+      },
+      {
+        "_path": "lib/libQt6OpenGLWidgets.so.6",
+        "path_type": "softlink",
+        "sha256": "2eb13e1328739f1cb79aee7f62688e645d1fcc8416a32252e665d09063958136",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libQt6OpenGLWidgets.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "2eb13e1328739f1cb79aee7f62688e645d1fcc8416a32252e665d09063958136",
+        "sha256_in_prefix": "2eb13e1328739f1cb79aee7f62688e645d1fcc8416a32252e665d09063958136",
+        "size_in_bytes": 84304
+      },
+      {
+        "_path": "lib/libQt6PrintSupport.so.6",
+        "path_type": "softlink",
+        "sha256": "ebb7cc953e6e610ec4418dc0c63db52c4fb35eb16032ff07925901b8fa5e8b04",
+        "size_in_bytes": 658600
+      },
+      {
+        "_path": "lib/libQt6PrintSupport.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "ebb7cc953e6e610ec4418dc0c63db52c4fb35eb16032ff07925901b8fa5e8b04",
+        "sha256_in_prefix": "ebb7cc953e6e610ec4418dc0c63db52c4fb35eb16032ff07925901b8fa5e8b04",
+        "size_in_bytes": 658600
+      },
+      {
+        "_path": "lib/libQt6Sql.so.6",
+        "path_type": "softlink",
+        "sha256": "a6d3d06128eb11a8d8401d7e87f4de9c0b410f2acf9acace848687baa7af4c60",
+        "size_in_bytes": 377144
+      },
+      {
+        "_path": "lib/libQt6Sql.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "a6d3d06128eb11a8d8401d7e87f4de9c0b410f2acf9acace848687baa7af4c60",
+        "sha256_in_prefix": "a6d3d06128eb11a8d8401d7e87f4de9c0b410f2acf9acace848687baa7af4c60",
+        "size_in_bytes": 377144
+      },
+      {
+        "_path": "lib/libQt6Test.so.6",
+        "path_type": "softlink",
+        "sha256": "298a3d454f578cdcd178fb3c1a58ec99c9145efd8390d83d6c73983e048a4f3b",
+        "size_in_bytes": 518560
+      },
+      {
+        "_path": "lib/libQt6Test.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "298a3d454f578cdcd178fb3c1a58ec99c9145efd8390d83d6c73983e048a4f3b",
+        "sha256_in_prefix": "298a3d454f578cdcd178fb3c1a58ec99c9145efd8390d83d6c73983e048a4f3b",
+        "size_in_bytes": 518560
+      },
+      {
+        "_path": "lib/libQt6Widgets.so.6",
+        "path_type": "softlink",
+        "sha256": "005c2295a99862dd023f4889d47b3b31d0b2cccb28143a2ea43480c2ecb664c0",
+        "size_in_bytes": 9700456
+      },
+      {
+        "_path": "lib/libQt6Widgets.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "005c2295a99862dd023f4889d47b3b31d0b2cccb28143a2ea43480c2ecb664c0",
+        "sha256_in_prefix": "005c2295a99862dd023f4889d47b3b31d0b2cccb28143a2ea43480c2ecb664c0",
+        "size_in_bytes": 9700456
+      },
+      {
+        "_path": "lib/libQt6XcbQpa.so.6",
+        "path_type": "softlink",
+        "sha256": "e92f588a427e18624d41c9f46099b4118deeed7de4e5f3ad7dc2190b93edbeeb",
+        "size_in_bytes": 852200
+      },
+      {
+        "_path": "lib/libQt6XcbQpa.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "e92f588a427e18624d41c9f46099b4118deeed7de4e5f3ad7dc2190b93edbeeb",
+        "sha256_in_prefix": "e92f588a427e18624d41c9f46099b4118deeed7de4e5f3ad7dc2190b93edbeeb",
+        "size_in_bytes": 852200
+      },
+      {
+        "_path": "lib/libQt6Xml.so.6",
+        "path_type": "softlink",
+        "sha256": "a4d5cf59cd78b8e7432f9fc55aa9b2fc99692a7a0dccb1d19cb2c582c1ad16ed",
+        "size_in_bytes": 207776
+      },
+      {
+        "_path": "lib/libQt6Xml.so.6.7.3",
+        "path_type": "hardlink",
+        "sha256": "a4d5cf59cd78b8e7432f9fc55aa9b2fc99692a7a0dccb1d19cb2c582c1ad16ed",
+        "sha256_in_prefix": "a4d5cf59cd78b8e7432f9fc55aa9b2fc99692a7a0dccb1d19cb2c582c1ad16ed",
+        "size_in_bytes": 207776
+      },
+      {
+        "_path": "lib/qt6/plugins/egldeviceintegrations/libqeglfs-emu-integration.so",
+        "path_type": "hardlink",
+        "sha256": "11d2484d9ea28726ba076a2e8fc553c242bdc075104dc89572755630e99cae35",
+        "sha256_in_prefix": "11d2484d9ea28726ba076a2e8fc553c242bdc075104dc89572755630e99cae35",
+        "size_in_bytes": 48816
+      },
+      {
+        "_path": "lib/qt6/plugins/egldeviceintegrations/libqeglfs-x11-integration.so",
+        "path_type": "hardlink",
+        "sha256": "b5d390e0998fdd3983be051eb3c7022fadfa7ab152560e83a5b464e5a5ff184f",
+        "sha256_in_prefix": "b5d390e0998fdd3983be051eb3c7022fadfa7ab152560e83a5b464e5a5ff184f",
+        "size_in_bytes": 33760
+      },
+      {
+        "_path": "lib/qt6/plugins/generic/libqevdevkeyboardplugin.so",
+        "path_type": "hardlink",
+        "sha256": "96ec39a4d9a1616ccda4fc6e586fc6e27c4c248ee42fd76700aa65593fbefdad",
+        "sha256_in_prefix": "96ec39a4d9a1616ccda4fc6e586fc6e27c4c248ee42fd76700aa65593fbefdad",
+        "size_in_bytes": 139448
+      },
+      {
+        "_path": "lib/qt6/plugins/generic/libqevdevmouseplugin.so",
+        "path_type": "hardlink",
+        "sha256": "eded77e7d281b339f9dc12226d03aa00cc0956f43bd3943186f21c8896de441c",
+        "sha256_in_prefix": "eded77e7d281b339f9dc12226d03aa00cc0956f43bd3943186f21c8896de441c",
+        "size_in_bytes": 144104
+      },
+      {
+        "_path": "lib/qt6/plugins/generic/libqevdevtabletplugin.so",
+        "path_type": "hardlink",
+        "sha256": "7b7f85ecafdf2a8df768be870117539354d7bccdcae5d3ab4a81bdd0a40fb967",
+        "sha256_in_prefix": "7b7f85ecafdf2a8df768be870117539354d7bccdcae5d3ab4a81bdd0a40fb967",
+        "size_in_bytes": 80384
+      },
+      {
+        "_path": "lib/qt6/plugins/generic/libqevdevtouchplugin.so",
+        "path_type": "hardlink",
+        "sha256": "985db9e6e5ed1667a8258c74fe9880b68a8f767d96d5520ccfd3db4121d09eaf",
+        "sha256_in_prefix": "985db9e6e5ed1667a8258c74fe9880b68a8f767d96d5520ccfd3db4121d09eaf",
+        "size_in_bytes": 180440
+      },
+      {
+        "_path": "lib/qt6/plugins/generic/libqtuiotouchplugin.so",
+        "path_type": "hardlink",
+        "sha256": "a852120348ee30cb05a80ac38fc734a97165079822f2b4dc27a4d11887980bbd",
+        "sha256_in_prefix": "a852120348ee30cb05a80ac38fc734a97165079822f2b4dc27a4d11887980bbd",
+        "size_in_bytes": 104904
+      },
+      {
+        "_path": "lib/qt6/plugins/imageformats/libqgif.so",
+        "path_type": "hardlink",
+        "sha256": "7d2b44f7ab0cf28bbb7a9dbd16de84060a8ac7292af655507be93b13957fdcb7",
+        "sha256_in_prefix": "7d2b44f7ab0cf28bbb7a9dbd16de84060a8ac7292af655507be93b13957fdcb7",
+        "size_in_bytes": 48240
+      },
+      {
+        "_path": "lib/qt6/plugins/imageformats/libqico.so",
+        "path_type": "hardlink",
+        "sha256": "c2167f451b2ef673d292575850b8dc03fda37f31d4ed9ebe90510fa151364fbe",
+        "sha256_in_prefix": "c2167f451b2ef673d292575850b8dc03fda37f31d4ed9ebe90510fa151364fbe",
+        "size_in_bytes": 45792
+      },
+      {
+        "_path": "lib/qt6/plugins/imageformats/libqjpeg.so",
+        "path_type": "hardlink",
+        "sha256": "851e02934c0d122d6bba2a64fd4abad88523658638cd1332b430d715415701a3",
+        "sha256_in_prefix": "851e02934c0d122d6bba2a64fd4abad88523658638cd1332b430d715415701a3",
+        "size_in_bytes": 66352
+      },
+      {
+        "_path": "lib/qt6/plugins/networkinformation/libqglib.so",
+        "path_type": "hardlink",
+        "sha256": "ddba937c4bba08c0c29f32757e72500c30ab12d5bf268f0cd34cbc5f3a41b851",
+        "sha256_in_prefix": "ddba937c4bba08c0c29f32757e72500c30ab12d5bf268f0cd34cbc5f3a41b851",
+        "size_in_bytes": 28296
+      },
+      {
+        "_path": "lib/qt6/plugins/networkinformation/libqnetworkmanager.so",
+        "path_type": "hardlink",
+        "sha256": "9fdae78359e59c4ad3607806203ecbefbbe7e43f29af3abd30d4610fbc6d108f",
+        "sha256_in_prefix": "9fdae78359e59c4ad3607806203ecbefbbe7e43f29af3abd30d4610fbc6d108f",
+        "size_in_bytes": 111016
+      },
+      {
+        "_path": "lib/qt6/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so",
+        "path_type": "hardlink",
+        "sha256": "62209aeba5d4ca91563c8a3733e4fbe36620225766307ff6d92c1881ef7b9031",
+        "sha256_in_prefix": "62209aeba5d4ca91563c8a3733e4fbe36620225766307ff6d92c1881ef7b9031",
+        "size_in_bytes": 38256
+      },
+      {
+        "_path": "lib/qt6/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so",
+        "path_type": "hardlink",
+        "sha256": "d55c3f9a9853831862cf8972b9d0903ac25617feb5f333a37f982825b9211d73",
+        "sha256_in_prefix": "d55c3f9a9853831862cf8972b9d0903ac25617feb5f333a37f982825b9211d73",
+        "size_in_bytes": 218120
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqeglfs.so",
+        "path_type": "hardlink",
+        "sha256": "b4967273d57b50aac34f4eba308f1d9507e1db0add1df9854ccbbcc03f5dffda",
+        "sha256_in_prefix": "b4967273d57b50aac34f4eba308f1d9507e1db0add1df9854ccbbcc03f5dffda",
+        "size_in_bytes": 23840
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqlinuxfb.so",
+        "path_type": "hardlink",
+        "sha256": "a22227921a17a73cd8461dc8aabce6f3eef18ad2d0907267ffddfd0ad0dd595b",
+        "sha256_in_prefix": "a22227921a17a73cd8461dc8aabce6f3eef18ad2d0907267ffddfd0ad0dd595b",
+        "size_in_bytes": 326000
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqminimal.so",
+        "path_type": "hardlink",
+        "sha256": "933b515dfdd48172e68ffe4265c2f724b75a4fe01258a3312542978603f33c07",
+        "sha256_in_prefix": "933b515dfdd48172e68ffe4265c2f724b75a4fe01258a3312542978603f33c07",
+        "size_in_bytes": 52304
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqminimalegl.so",
+        "path_type": "hardlink",
+        "sha256": "4981b01252e09323f80c2664e14861850a9ac55cd3dd798753337706dd41886e",
+        "sha256_in_prefix": "4981b01252e09323f80c2664e14861850a9ac55cd3dd798753337706dd41886e",
+        "size_in_bytes": 66592
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqoffscreen.so",
+        "path_type": "hardlink",
+        "sha256": "368e207ad24abb76dd69066600115f94691a754f88741ded2b7f58a7167bfe64",
+        "sha256_in_prefix": "368e207ad24abb76dd69066600115f94691a754f88741ded2b7f58a7167bfe64",
+        "size_in_bytes": 156936
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqvnc.so",
+        "path_type": "hardlink",
+        "sha256": "1428fafc03a3fd061d785a3ed82490a52f384ac6ef4685bfcbebe037e8c2e96b",
+        "sha256_in_prefix": "1428fafc03a3fd061d785a3ed82490a52f384ac6ef4685bfcbebe037e8c2e96b",
+        "size_in_bytes": 180840
+      },
+      {
+        "_path": "lib/qt6/plugins/platforms/libqxcb.so",
+        "path_type": "hardlink",
+        "sha256": "617b7ae36570f8f681564ac6f32c29c6c5d22f8355a62433067644c76c7b75fe",
+        "sha256_in_prefix": "617b7ae36570f8f681564ac6f32c29c6c5d22f8355a62433067644c76c7b75fe",
+        "size_in_bytes": 23848
+      },
+      {
+        "_path": "lib/qt6/plugins/platformthemes/libqxdgdesktopportal.so",
+        "path_type": "hardlink",
+        "sha256": "b82779e5ebc84c4d93f9ab2c79183e3da18aaf82f26b9e3b54f9a16788f4d35a",
+        "sha256_in_prefix": "b82779e5ebc84c4d93f9ab2c79183e3da18aaf82f26b9e3b54f9a16788f4d35a",
+        "size_in_bytes": 170192
+      },
+      {
+        "_path": "lib/qt6/plugins/printsupport/libcupsprintersupport.so",
+        "path_type": "hardlink",
+        "sha256": "c560b3c0e37862e0a588b585b0f07309acddf999d5e195ef6aefb3b03f66ba04",
+        "sha256_in_prefix": "c560b3c0e37862e0a588b585b0f07309acddf999d5e195ef6aefb3b03f66ba04",
+        "size_in_bytes": 142288
+      },
+      {
+        "_path": "lib/qt6/plugins/sqldrivers/libqsqlite.so",
+        "path_type": "hardlink",
+        "sha256": "ce8193704a2b8ea63859e5aad2c2faa0394acd769c7e7e192453ad7c240a6026",
+        "sha256_in_prefix": "ce8193704a2b8ea63859e5aad2c2faa0394acd769c7e7e192453ad7c240a6026",
+        "size_in_bytes": 131592
+      },
+      {
+        "_path": "lib/qt6/plugins/sqldrivers/libqsqlmysql.so",
+        "path_type": "hardlink",
+        "sha256": "214136c89118b03e55de4c495e58569816eef71e946c465e8cb02de3978e02f3",
+        "sha256_in_prefix": "214136c89118b03e55de4c495e58569816eef71e946c465e8cb02de3978e02f3",
+        "size_in_bytes": 126432
+      },
+      {
+        "_path": "lib/qt6/plugins/sqldrivers/libqsqlpsql.so",
+        "path_type": "hardlink",
+        "sha256": "f2f9fdc66878bc363d2db8a1aaf16f027470e314534621cdd4174163dbd5aa0a",
+        "sha256_in_prefix": "f2f9fdc66878bc363d2db8a1aaf16f027470e314534621cdd4174163dbd5aa0a",
+        "size_in_bytes": 129624
+      },
+      {
+        "_path": "lib/qt6/plugins/tls/libqcertonlybackend.so",
+        "path_type": "hardlink",
+        "sha256": "5f97acd7675658bb52e73f8bab71cfa2190d462aa8762551a5cf6fae7b350dec",
+        "sha256_in_prefix": "5f97acd7675658bb52e73f8bab71cfa2190d462aa8762551a5cf6fae7b350dec",
+        "size_in_bytes": 110896
+      },
+      {
+        "_path": "lib/qt6/plugins/tls/libqopensslbackend.so",
+        "path_type": "hardlink",
+        "sha256": "7dad856d1f318c3c82aacb0359ddf9a572645d75be45646cab4eaef981d2346a",
+        "sha256_in_prefix": "7dad856d1f318c3c82aacb0359ddf9a572645d75be45646cab4eaef981d2346a",
+        "size_in_bytes": 356912
+      },
+      {
+        "_path": "lib/qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so",
+        "path_type": "hardlink",
+        "sha256": "f7d922d2b5bed7544c612355e780403fa46897707038889dd013ffabb6adc04e",
+        "sha256_in_prefix": "f7d922d2b5bed7544c612355e780403fa46897707038889dd013ffabb6adc04e",
+        "size_in_bytes": 77528
+      },
+      {
+        "_path": "lib/qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so",
+        "path_type": "hardlink",
+        "sha256": "4992ef847c396d4d05179becf03d6ff16bb520fb2b0a15ed108604b7eb90de72",
+        "sha256_in_prefix": "4992ef847c396d4d05179becf03d6ff16bb520fb2b0a15ed108604b7eb90de72",
+        "size_in_bytes": 107392
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qt3d.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "ff746e9b9db71b1fa9ccd40fb23092a5571f2883288fbbd5fec94fa0b8664b13",
+        "sha256_in_prefix": "ff746e9b9db71b1fa9ccd40fb23092a5571f2883288fbbd5fec94fa0b8664b13",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtactiveqt.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "be4c6324b01ce373dc2d019bb1dedf45b99bd182bc70bb7e60eb8c32ab795030",
+        "sha256_in_prefix": "be4c6324b01ce373dc2d019bb1dedf45b99bd182bc70bb7e60eb8c32ab795030",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtandroidextras.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "6c34ce29c648ddce0d3a6da2c5d7bc1e8390d79ad56e40a128019738d6e01c92",
+        "sha256_in_prefix": "6c34ce29c648ddce0d3a6da2c5d7bc1e8390d79ad56e40a128019738d6e01c92",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtbase.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "7171f65e3c6b56de54696037ab21908d92b28139d130e306e2d0da4572167dc4",
+        "sha256_in_prefix": "7171f65e3c6b56de54696037ab21908d92b28139d130e306e2d0da4572167dc4",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtcharts.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "2af4eb85eea30a7124240d4594cdb0e7097b0cc5d12bd83cdc0458d1371085c2",
+        "sha256_in_prefix": "2af4eb85eea30a7124240d4594cdb0e7097b0cc5d12bd83cdc0458d1371085c2",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtconnectivity.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "a4597800b8ed5cfc063b454a517a530c13870a4a3ef5abe965c476a91ffdc578",
+        "sha256_in_prefix": "a4597800b8ed5cfc063b454a517a530c13870a4a3ef5abe965c476a91ffdc578",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtdatavis3d.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "5d3da70c64fc72a3963c90ec94065e03d9fdf686b301db01f64a400473fd11df",
+        "sha256_in_prefix": "5d3da70c64fc72a3963c90ec94065e03d9fdf686b301db01f64a400473fd11df",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtdeclarative.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "cee6407e30497afa28bb9772f6df58f1001271dd10ce85b104edf4eeb96faf93",
+        "sha256_in_prefix": "cee6407e30497afa28bb9772f6df58f1001271dd10ce85b104edf4eeb96faf93",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtdoc.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "35a39c1f25ddd4581feb8a2945065ce719fad978b948b5cd8e1d73d4584b531e",
+        "sha256_in_prefix": "35a39c1f25ddd4581feb8a2945065ce719fad978b948b5cd8e1d73d4584b531e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtgamepad.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "e3aa9aebe78259999ece49b61264b78f2110b08c21281e02312c9d67569612e7",
+        "sha256_in_prefix": "e3aa9aebe78259999ece49b61264b78f2110b08c21281e02312c9d67569612e7",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtgraphicaleffects.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "7ed0c2b0c67307bdefe11bd859e323c03677bc052f480b25fc6942bfc397439f",
+        "sha256_in_prefix": "7ed0c2b0c67307bdefe11bd859e323c03677bc052f480b25fc6942bfc397439f",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtimageformats.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "4062ce49fbd41bfc5207c740bf677753e1ee09576f4cb5e26428155eca58ba01",
+        "sha256_in_prefix": "4062ce49fbd41bfc5207c740bf677753e1ee09576f4cb5e26428155eca58ba01",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtlocation.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "a08b1ce61d376c23a9c97c477e6775465d6e37aa10e7cca15bad543c95c1923b",
+        "sha256_in_prefix": "a08b1ce61d376c23a9c97c477e6775465d6e37aa10e7cca15bad543c95c1923b",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtlottie.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "d540ff1e4f61cf9231dcb868cd1337009a986569120673a9e438647743041924",
+        "sha256_in_prefix": "d540ff1e4f61cf9231dcb868cd1337009a986569120673a9e438647743041924",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtmacextras.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "2930d3968b272ab1510751c74e977dc2df5b8ed1be200156985a56a4b76e768e",
+        "sha256_in_prefix": "2930d3968b272ab1510751c74e977dc2df5b8ed1be200156985a56a4b76e768e",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtmultimedia.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "4440ee8e9579a1bc076bfcee443bf3f230d598be595c7244e9e657cc1d850709",
+        "sha256_in_prefix": "4440ee8e9579a1bc076bfcee443bf3f230d598be595c7244e9e657cc1d850709",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtnetworkauth.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "cdc8fabb801a4d3ec06459e9f3163175e169da44a7d474ec992bd2de30d3a352",
+        "sha256_in_prefix": "cdc8fabb801a4d3ec06459e9f3163175e169da44a7d474ec992bd2de30d3a352",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtpositioning.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "c5f0cdc9bfd7a6389aee056fa2c887946a59265278f6b54567475e020a502bcf",
+        "sha256_in_prefix": "c5f0cdc9bfd7a6389aee056fa2c887946a59265278f6b54567475e020a502bcf",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtpurchasing.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "65dd111f00f1aa35fd081d847665b3fd8fb51464518ca199da0f59438571ed6b",
+        "sha256_in_prefix": "65dd111f00f1aa35fd081d847665b3fd8fb51464518ca199da0f59438571ed6b",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtquickcontrols.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "31a1f7985ff90835565184636b394165dd66fcbc047f0929e90530414662dbd0",
+        "sha256_in_prefix": "31a1f7985ff90835565184636b394165dd66fcbc047f0929e90530414662dbd0",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtquickcontrols2.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "cee6407e30497afa28bb9772f6df58f1001271dd10ce85b104edf4eeb96faf93",
+        "sha256_in_prefix": "cee6407e30497afa28bb9772f6df58f1001271dd10ce85b104edf4eeb96faf93",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtremoteobjects.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "8a56b6ab05cbc513b9021f12e21944c7c11b7e3c7930467754ce8bb545b596aa",
+        "sha256_in_prefix": "8a56b6ab05cbc513b9021f12e21944c7c11b7e3c7930467754ce8bb545b596aa",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtscript.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "c6e6bb5f2ad3d3e7e5e5ce2455f1efe9935f3de0efd42669863b7d706a940b36",
+        "sha256_in_prefix": "c6e6bb5f2ad3d3e7e5e5ce2455f1efe9935f3de0efd42669863b7d706a940b36",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtscxml.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "5c5912f27f721196ba7b5bde0f5ac646ea2b041bb5828c4f52a6c8de8e095b2f",
+        "sha256_in_prefix": "5c5912f27f721196ba7b5bde0f5ac646ea2b041bb5828c4f52a6c8de8e095b2f",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtsensors.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "75845c4b437c154f9ff5820a37ff4b3098c07d7a16b63d1d7ff663dad5113452",
+        "sha256_in_prefix": "75845c4b437c154f9ff5820a37ff4b3098c07d7a16b63d1d7ff663dad5113452",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtserialbus.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "ec88d021b7cc70b6d64757d77a7cd84371d1fd0adf1ef0ab8300261a38142c61",
+        "sha256_in_prefix": "ec88d021b7cc70b6d64757d77a7cd84371d1fd0adf1ef0ab8300261a38142c61",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtserialport.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "6fd2ca3f3f25bb78c031cdcc71df3af94a98e329ad90fb68213a98a8e9ae61d9",
+        "sha256_in_prefix": "6fd2ca3f3f25bb78c031cdcc71df3af94a98e329ad90fb68213a98a8e9ae61d9",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtspeech.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "88d679c94631fa7b7e7bdc5ba043bdfaf988414384d37b904ce57565fe3120eb",
+        "sha256_in_prefix": "88d679c94631fa7b7e7bdc5ba043bdfaf988414384d37b904ce57565fe3120eb",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtsvg.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "824ab0abaa262834890ccb93e52523ca6cbede917e4eede0ffc49d90c61f6ba8",
+        "sha256_in_prefix": "824ab0abaa262834890ccb93e52523ca6cbede917e4eede0ffc49d90c61f6ba8",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qttools.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "2536c87a8d3376f102a3f174769b9f8f73a1555f45a795839a58f2a1d0179c54",
+        "sha256_in_prefix": "2536c87a8d3376f102a3f174769b9f8f73a1555f45a795839a58f2a1d0179c54",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtvirtualkeyboard.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "e40c80c1505813bf74e5ee2bd4d0447692d6e664eda392ff32ceca20314982ca",
+        "sha256_in_prefix": "e40c80c1505813bf74e5ee2bd4d0447692d6e664eda392ff32ceca20314982ca",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwayland.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "52ddc15e51387b56d20a555737ad5a262c7cc5c26c275977b60d11f82de6edab",
+        "sha256_in_prefix": "52ddc15e51387b56d20a555737ad5a262c7cc5c26c275977b60d11f82de6edab",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwebchannel.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "b5cff229c27c23f26fa71d76d087235d787a5633e130b0980d93d5e3eafbe7dc",
+        "sha256_in_prefix": "b5cff229c27c23f26fa71d76d087235d787a5633e130b0980d93d5e3eafbe7dc",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwebengine.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "6325004ccf0efec99dda1302bcb60c52966c5d3ef20b85f4827cf357336ac147",
+        "sha256_in_prefix": "6325004ccf0efec99dda1302bcb60c52966c5d3ef20b85f4827cf357336ac147",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwebsockets.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "3a2915bdb2ddf497be8164000404b6e0c6917b1736930f6d758d642242beb497",
+        "sha256_in_prefix": "3a2915bdb2ddf497be8164000404b6e0c6917b1736930f6d758d642242beb497",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwebview.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "b5be34461caa2f8021997eee7e0f3501a191be6f51997c9a7140a8c2dade7300",
+        "sha256_in_prefix": "b5be34461caa2f8021997eee7e0f3501a191be6f51997c9a7140a8c2dade7300",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtwinextras.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "57315288a0ec99a39edc3075445f6c1f2ea6844746ce50312c836de3dcb95fe7",
+        "sha256_in_prefix": "57315288a0ec99a39edc3075445f6c1f2ea6844746ce50312c836de3dcb95fe7",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtx11extras.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "02facfd2316ed1b9bceed99a1fe068e5a75044af2b7b088f69cafb48bfa8db36",
+        "sha256_in_prefix": "02facfd2316ed1b9bceed99a1fe068e5a75044af2b7b088f69cafb48bfa8db36",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "share/doc/qt6/config/exampleurl-qtxmlpatterns.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "746f81030d5e885667eb3f433db1bea493fcaf54c0390c4a560bc3d141ec9ebb",
+        "sha256_in_prefix": "746f81030d5e885667eb3f433db1bea493fcaf54c0390c4a560bc3d141ec9ebb",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/global/compat.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "7bcfb31d8a24c647e9b1223315a493e7e6734e92b90347b4239d3c7a8aa0d5bb",
+        "sha256_in_prefix": "7bcfb31d8a24c647e9b1223315a493e7e6734e92b90347b4239d3c7a8aa0d5bb",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "share/doc/qt6/global/config.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "c8931fa83ce02612517acabc5a071b960181209eacbaa59743361955ebed6115",
+        "sha256_in_prefix": "c8931fa83ce02612517acabc5a071b960181209eacbaa59743361955ebed6115",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "00604a00230a18aa1cce364b216b846c746012d2af9c981186ee56a177ba5aca",
+        "sha256_in_prefix": "00604a00230a18aa1cce364b216b846c746012d2af9c981186ee56a177ba5aca",
+        "size_in_bytes": 61
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites/external-resources.qdoc",
+        "path_type": "hardlink",
+        "sha256": "23345afa1da2c6d7de6cf07d5a1b3a0690dd45bd37166e397e45e5dea5225344",
+        "sha256_in_prefix": "23345afa1da2c6d7de6cf07d5a1b3a0690dd45bd37166e397e45e5dea5225344",
+        "size_in_bytes": 13843
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites/qt-webpages.qdoc",
+        "path_type": "hardlink",
+        "sha256": "e64561cf3ddedd76818e31e9e3cff61abeb2964031d2a33e0289e5023145a024",
+        "sha256_in_prefix": "e64561cf3ddedd76818e31e9e3cff61abeb2964031d2a33e0289e5023145a024",
+        "size_in_bytes": 2335
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites/qtcreator.qdoc",
+        "path_type": "hardlink",
+        "sha256": "9ab7dbd1a35b9ca45ff17a0beec18743fd240b3208c1540d373545284d8c73bb",
+        "sha256_in_prefix": "9ab7dbd1a35b9ca45ff17a0beec18743fd240b3208c1540d373545284d8c73bb",
+        "size_in_bytes": 20490
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites/qtdesignstudio.qdoc",
+        "path_type": "hardlink",
+        "sha256": "94f7ca62f2f85c63e00bf9c41ddaa0122f4443269f0f221d6e8e76e37e7d4255",
+        "sha256_in_prefix": "94f7ca62f2f85c63e00bf9c41ddaa0122f4443269f0f221d6e8e76e37e7d4255",
+        "size_in_bytes": 22900
+      },
+      {
+        "_path": "share/doc/qt6/global/externalsites/rfc.qdoc",
+        "path_type": "hardlink",
+        "sha256": "e6ce44b08fad180ec1f543f281a6301be65f906cf6c518c2d7bc842bc385deec",
+        "sha256_in_prefix": "e6ce44b08fad180ec1f543f281a6301be65f906cf6c518c2d7bc842bc385deec",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "share/doc/qt6/global/fileextensions.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "fd0906412ce391e4f7ae5318434587908973b944b958da3f6c32c82d30740327",
+        "sha256_in_prefix": "fd0906412ce391e4f7ae5318434587908973b944b958da3f6c32c82d30740327",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "share/doc/qt6/global/html-config.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "28501b5a10071a82fc43afcd7f1fbbe7a753c9acb8aec9ade72e031d1b0cf95a",
+        "sha256_in_prefix": "28501b5a10071a82fc43afcd7f1fbbe7a753c9acb8aec9ade72e031d1b0cf95a",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "share/doc/qt6/global/html-footer-online.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "7089879e8d64cab4107098ad71bef2c7b12194a39e479aa74c58b5a77a2215db",
+        "sha256_in_prefix": "7089879e8d64cab4107098ad71bef2c7b12194a39e479aa74c58b5a77a2215db",
+        "size_in_bytes": 9808
+      },
+      {
+        "_path": "share/doc/qt6/global/html-footer.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "d300f4332edb2c29fed61a466e19818a1d3a585d6c5f9a300eec57cb7da9ccb7",
+        "sha256_in_prefix": "d300f4332edb2c29fed61a466e19818a1d3a585d6c5f9a300eec57cb7da9ccb7",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "share/doc/qt6/global/html-header-offline.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "82d2e258d8615aeaa7183c085b33e3ecfb05dd66be1cff63a3fd05ca38b0d25b",
+        "sha256_in_prefix": "82d2e258d8615aeaa7183c085b33e3ecfb05dd66be1cff63a3fd05ca38b0d25b",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "share/doc/qt6/global/html-header-online.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "fdff6e237a076a1d6d378aadb0e8e1a3403976f6f400b6889149848776d621d1",
+        "sha256_in_prefix": "fdff6e237a076a1d6d378aadb0e8e1a3403976f6f400b6889149848776d621d1",
+        "size_in_bytes": 6986
+      },
+      {
+        "_path": "share/doc/qt6/global/htmltabs.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "412faec3eb94e50d9f293f81dc8ae79075258983749b364c5808de83691b761c",
+        "sha256_in_prefix": "412faec3eb94e50d9f293f81dc8ae79075258983749b364c5808de83691b761c",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "share/doc/qt6/global/includes-online/search.qdoc",
+        "path_type": "hardlink",
+        "sha256": "6213911a1e525f8d6348a4456e1bde07524e4fa37a430682b315dfb4fe84f224",
+        "sha256_in_prefix": "6213911a1e525f8d6348a4456e1bde07524e4fa37a430682b315dfb4fe84f224",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "share/doc/qt6/global/includes/cli-build-cmake.qdocinc",
+        "path_type": "hardlink",
+        "sha256": "a2e11f1a95ed1363f76212aee0259f21a1936fe0a35f8d4518998981d54db8c0",
+        "sha256_in_prefix": "a2e11f1a95ed1363f76212aee0259f21a1936fe0a35f8d4518998981d54db8c0",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "share/doc/qt6/global/includes/corelib/port-from-qregexp.qdocinc",
+        "path_type": "hardlink",
+        "sha256": "9c290d0830817c00da425184e295070a962015766c0bc9bc658609eb417be980",
+        "sha256_in_prefix": "9c290d0830817c00da425184e295070a962015766c0bc9bc658609eb417be980",
+        "size_in_bytes": 7904
+      },
+      {
+        "_path": "share/doc/qt6/global/includes/examples-run.qdocinc",
+        "path_type": "hardlink",
+        "sha256": "a83c889dcd4f12bdfea7b8fe1cf970a684d13d410d13c1acf9e9914d6b6aa19b",
+        "sha256_in_prefix": "a83c889dcd4f12bdfea7b8fe1cf970a684d13d410d13c1acf9e9914d6b6aa19b",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "share/doc/qt6/global/includes/module-use.qdocinc",
+        "path_type": "hardlink",
+        "sha256": "eac6d18a5b4e1519bb8d39ab3e4bb1c1af3a20bc2af2e76f621a719c4cf9daed",
+        "sha256_in_prefix": "eac6d18a5b4e1519bb8d39ab3e4bb1c1af3a20bc2af2e76f621a719c4cf9daed",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "share/doc/qt6/global/includes/standardpath/functiondocs.qdocinc",
+        "path_type": "hardlink",
+        "sha256": "4b6ea03e1df6d7950597491da7838dedc4e37b93bcadedbf7df7235f930c9c52",
+        "sha256_in_prefix": "4b6ea03e1df6d7950597491da7838dedc4e37b93bcadedbf7df7235f930c9c52",
+        "size_in_bytes": 3759
+      },
+      {
+        "_path": "share/doc/qt6/global/macros-online.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "c623e94ccc5adbbc640433eda7bda567dcc910a9c049bd2b99902e06278c4b2c",
+        "sha256_in_prefix": "c623e94ccc5adbbc640433eda7bda567dcc910a9c049bd2b99902e06278c4b2c",
+        "size_in_bytes": 579
+      },
+      {
+        "_path": "share/doc/qt6/global/macros.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "90d4412d0a264c2d54f82f3f1b11b4c9f2dcbbf2c357d7c467a122fc248a1a83",
+        "sha256_in_prefix": "90d4412d0a264c2d54f82f3f1b11b4c9f2dcbbf2c357d7c467a122fc248a1a83",
+        "size_in_bytes": 7649
+      },
+      {
+        "_path": "share/doc/qt6/global/manifest-meta.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "aad03b59b2a8ef0f5950ebe31791ad788bd5eed721c3b3c394e4ced93e6bd9cc",
+        "sha256_in_prefix": "aad03b59b2a8ef0f5950ebe31791ad788bd5eed721c3b3c394e4ced93e6bd9cc",
+        "size_in_bytes": 15388
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-cpp-defines.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "802d32fc49cf90b5e32583de77e7fc743529168c6433459bb09db014dea9d668",
+        "sha256_in_prefix": "802d32fc49cf90b5e32583de77e7fc743529168c6433459bb09db014dea9d668",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-html-templates-offline-simple.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "482b57e391e05683e753794a33991287d0f1c370dbe0ae79a4e6522454da460c",
+        "sha256_in_prefix": "482b57e391e05683e753794a33991287d0f1c370dbe0ae79a4e6522454da460c",
+        "size_in_bytes": 1204
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-html-templates-offline.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "d9879cc6f790939969405f3801188a9ca4d556b7592600750fecb3b9d1f6678d",
+        "sha256_in_prefix": "d9879cc6f790939969405f3801188a9ca4d556b7592600750fecb3b9d1f6678d",
+        "size_in_bytes": 1923
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-html-templates-online.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "c8b6a08f06803369059a233d73a4225550caea0364c11e1d35cf55c9b23a92d3",
+        "sha256_in_prefix": "c8b6a08f06803369059a233d73a4225550caea0364c11e1d35cf55c9b23a92d3",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-module-defaults-offline.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "6d2cc02a7b41f2f5392bc81b14d14ceae77677ea3086f4de97e84d0987b75085",
+        "sha256_in_prefix": "6d2cc02a7b41f2f5392bc81b14d14ceae77677ea3086f4de97e84d0987b75085",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-module-defaults-online-commercial.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "51270f6c3ce7b9f112c6fd4b2087227c168084170a8c3b1e0f7d4f4d7ecc3fb0",
+        "sha256_in_prefix": "51270f6c3ce7b9f112c6fd4b2087227c168084170a8c3b1e0f7d4f4d7ecc3fb0",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-module-defaults-online.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "552394738e50cae2ea8d6d8f1c32c1de2f9dee90890bcd4c7d449175eac36ab9",
+        "sha256_in_prefix": "552394738e50cae2ea8d6d8f1c32c1de2f9dee90890bcd4c7d449175eac36ab9",
+        "size_in_bytes": 1470
+      },
+      {
+        "_path": "share/doc/qt6/global/qt-module-defaults.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "ee8059937c02a177cd167715a752f30c202540c56196447d86e03d1cc4343173",
+        "sha256_in_prefix": "ee8059937c02a177cd167715a752f30c202540c56196447d86e03d1cc4343173",
+        "size_in_bytes": 311
+      },
+      {
+        "_path": "share/doc/qt6/global/snippets/code/doc_src_port_from_qregexp.cpp",
+        "path_type": "hardlink",
+        "sha256": "8838b091ad619a7627b32e589dab4014f462388c9e021973bb3fe1673a223d4f",
+        "sha256_in_prefix": "8838b091ad619a7627b32e589dab4014f462388c9e021973bb3fe1673a223d4f",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-dark_gradient.png",
+        "path_type": "hardlink",
+        "sha256": "105a41570caf844a9d904f9e5489217de6eb427193a78c1cba980e51de88e526",
+        "sha256_in_prefix": "105a41570caf844a9d904f9e5489217de6eb427193a78c1cba980e51de88e526",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-footer-bg.jpg",
+        "path_type": "hardlink",
+        "sha256": "322165d453aec15ebb8120f9ae7f54478787120735b25e6e2e361d1529fc4266",
+        "sha256_in_prefix": "322165d453aec15ebb8120f9ae7f54478787120735b25e6e2e361d1529fc4266",
+        "size_in_bytes": 3843
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-footer_shadow.png",
+        "path_type": "hardlink",
+        "sha256": "e996b4e5f2483f871a9e7ad311828ba9edb433264d70bd81e98122254ea6453b",
+        "sha256_in_prefix": "e996b4e5f2483f871a9e7ad311828ba9edb433264d70bd81e98122254ea6453b",
+        "size_in_bytes": 3181
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-gradient.png",
+        "path_type": "hardlink",
+        "sha256": "0ddafd7312e2cbee751f21d3bd95b00594a8fb964852e4a05fc206370bd0dcd1",
+        "sha256_in_prefix": "0ddafd7312e2cbee751f21d3bd95b00594a8fb964852e4a05fc206370bd0dcd1",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-header-bg.jpg",
+        "path_type": "hardlink",
+        "sha256": "3a3cd7391baf291c6516b6ccf75399a0c9cde3473bd29d9f5f5a3f7bb1426f2b",
+        "sha256_in_prefix": "3a3cd7391baf291c6516b6ccf75399a0c9cde3473bd29d9f5f5a3f7bb1426f2b",
+        "size_in_bytes": 11264
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/Qt-logo.png",
+        "path_type": "hardlink",
+        "sha256": "ee90b7e6dcac245e5bee4907fde12ff37e9a77418c8fc217cfb6f9577aafc4b2",
+        "sha256_in_prefix": "ee90b7e6dcac245e5bee4907fde12ff37e9a77418c8fc217cfb6f9577aafc4b2",
+        "size_in_bytes": 2425
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/arrow.png",
+        "path_type": "hardlink",
+        "sha256": "607f6b2a66760be49d621e19a6164eb9d3487f12fc148382e07b7f598366b3f3",
+        "sha256_in_prefix": "607f6b2a66760be49d621e19a6164eb9d3487f12fc148382e07b7f598366b3f3",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/arrow_bc.png",
+        "path_type": "hardlink",
+        "sha256": "607f6b2a66760be49d621e19a6164eb9d3487f12fc148382e07b7f598366b3f3",
+        "sha256_in_prefix": "607f6b2a66760be49d621e19a6164eb9d3487f12fc148382e07b7f598366b3f3",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/arrow_down.png",
+        "path_type": "hardlink",
+        "sha256": "05ae56d617c285b9d291acf4c98da2a2ccfd89df2597c02dcca03f73ff378b42",
+        "sha256_in_prefix": "05ae56d617c285b9d291acf4c98da2a2ccfd89df2597c02dcca03f73ff378b42",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bg_l.png",
+        "path_type": "hardlink",
+        "sha256": "9f0d4003c45856bf21cbc8330ec24111af120ef9a500c276ebb20c195d23cb1a",
+        "sha256_in_prefix": "9f0d4003c45856bf21cbc8330ec24111af120ef9a500c276ebb20c195d23cb1a",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bg_l_blank.png",
+        "path_type": "hardlink",
+        "sha256": "35b1c78d4650e76d61c8f0b9fe009a79e325e7560122fcbecbc7901a100f37f3",
+        "sha256_in_prefix": "35b1c78d4650e76d61c8f0b9fe009a79e325e7560122fcbecbc7901a100f37f3",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bg_ll_blank.png",
+        "path_type": "hardlink",
+        "sha256": "16f288272a880642af3adc84897c1f194be55f247f7b82b9ba11dee3b3daecab",
+        "sha256_in_prefix": "16f288272a880642af3adc84897c1f194be55f247f7b82b9ba11dee3b3daecab",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bg_r.png",
+        "path_type": "hardlink",
+        "sha256": "4ebe33039c96d3ee9d31a0e6051faf9659bf53d40ce0153a0114021be59946ce",
+        "sha256_in_prefix": "4ebe33039c96d3ee9d31a0e6051faf9659bf53d40ce0153a0114021be59946ce",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bg_ul_blank.png",
+        "path_type": "hardlink",
+        "sha256": "fcc1189e0f1d9952426ca04241caa772d8e9b31e0524fbd2bf7b53f79ef5f0fb",
+        "sha256_in_prefix": "fcc1189e0f1d9952426ca04241caa772d8e9b31e0524fbd2bf7b53f79ef5f0fb",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bgrContent.png",
+        "path_type": "hardlink",
+        "sha256": "32aa1c0d48132615c8921052bca5c17c405142ada1784ad7ad193e4cd5f87896",
+        "sha256_in_prefix": "32aa1c0d48132615c8921052bca5c17c405142ada1784ad7ad193e4cd5f87896",
+        "size_in_bytes": 149
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/blu_dot.png",
+        "path_type": "hardlink",
+        "sha256": "7f4f4d977f571da90671968e412bd29db1f1efa335aaa6752f370e3472bf5707",
+        "sha256_in_prefix": "7f4f4d977f571da90671968e412bd29db1f1efa335aaa6752f370e3472bf5707",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/box_bg.png",
+        "path_type": "hardlink",
+        "sha256": "611e2c5b7638c8f258d05e2e0110a327970850452a179e5194d5fe7a7d278b0a",
+        "sha256_in_prefix": "611e2c5b7638c8f258d05e2e0110a327970850452a179e5194d5fe7a7d278b0a",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/breadcrumb.png",
+        "path_type": "hardlink",
+        "sha256": "cb98023e4d8eed31696e6febe729687b6ab263befab2ab2f505e73d507d541b5",
+        "sha256_in_prefix": "cb98023e4d8eed31696e6febe729687b6ab263befab2ab2f505e73d507d541b5",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/btn_next.png",
+        "path_type": "hardlink",
+        "sha256": "0c4151ddc486972d7608e1bbc454bd54f66513cc8e70a490f263b28de12d8731",
+        "sha256_in_prefix": "0c4151ddc486972d7608e1bbc454bd54f66513cc8e70a490f263b28de12d8731",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/btn_prev.png",
+        "path_type": "hardlink",
+        "sha256": "95a8b2eda14c743c0ba85356bdf1363fec0c1a05eee61d4c0c17a75599711751",
+        "sha256_in_prefix": "95a8b2eda14c743c0ba85356bdf1363fec0c1a05eee61d4c0c17a75599711751",
+        "size_in_bytes": 687
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bullet_dn.png",
+        "path_type": "hardlink",
+        "sha256": "caca8e8597829bca12ca7234642f6dea9ef160651ac74fce61b4cffb89a62d8a",
+        "sha256_in_prefix": "caca8e8597829bca12ca7234642f6dea9ef160651ac74fce61b4cffb89a62d8a",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bullet_gt.png",
+        "path_type": "hardlink",
+        "sha256": "07ba2598667536c097c42456780cd452ba83cda1ec3b570c73af9ac945f28631",
+        "sha256_in_prefix": "07ba2598667536c097c42456780cd452ba83cda1ec3b570c73af9ac945f28631",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bullet_sq.png",
+        "path_type": "hardlink",
+        "sha256": "bba29f8c0f23e2b33d55c4fab7bf6d94930b2c7818d6a37d55c0e1946c0f24b3",
+        "sha256_in_prefix": "bba29f8c0f23e2b33d55c4fab7bf6d94930b2c7818d6a37d55c0e1946c0f24b3",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/bullet_up.png",
+        "path_type": "hardlink",
+        "sha256": "1ecb7e7d4577770bd626be99e70f985f3d223d6f7c05faf97627be8778059445",
+        "sha256_in_prefix": "1ecb7e7d4577770bd626be99e70f985f3d223d6f7c05faf97627be8778059445",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/feedbackground.png",
+        "path_type": "hardlink",
+        "sha256": "51d1bb5ce5d85dcac867cf1226baf3e6693afab5a65355b502b9fc5c411837a4",
+        "sha256_in_prefix": "51d1bb5ce5d85dcac867cf1226baf3e6693afab5a65355b502b9fc5c411837a4",
+        "size_in_bytes": 263
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/header_bg.png",
+        "path_type": "hardlink",
+        "sha256": "2aa1401419ee6bbed3c2c1dcb01fedfc0651abd075da173d1ac10fb91e28067d",
+        "sha256_in_prefix": "2aa1401419ee6bbed3c2c1dcb01fedfc0651abd075da173d1ac10fb91e28067d",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/home.png",
+        "path_type": "hardlink",
+        "sha256": "bce73b47e9e5c7a90121ee8414046b380b0c84144194f3fc493d37025661215e",
+        "sha256_in_prefix": "bce73b47e9e5c7a90121ee8414046b380b0c84144194f3fc493d37025661215e",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/horBar.png",
+        "path_type": "hardlink",
+        "sha256": "f005522a00ff392d4dd58dbb09f258882245ba63b98d61604aa2b4bb999e7496",
+        "sha256_in_prefix": "f005522a00ff392d4dd58dbb09f258882245ba63b98d61604aa2b4bb999e7496",
+        "size_in_bytes": 2807
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/ico_note.png",
+        "path_type": "hardlink",
+        "sha256": "28c8dff65b8e6b19d50f597e254a0f943740f742183310fe8d5be7edcbd343c1",
+        "sha256_in_prefix": "28c8dff65b8e6b19d50f597e254a0f943740f742183310fe8d5be7edcbd343c1",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/ico_note_attention.png",
+        "path_type": "hardlink",
+        "sha256": "b75fcddaaf182c8f3a9a93f51394049b34513e55cf194e1683f95ee7ff586526",
+        "sha256_in_prefix": "b75fcddaaf182c8f3a9a93f51394049b34513e55cf194e1683f95ee7ff586526",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/ico_out.png",
+        "path_type": "hardlink",
+        "sha256": "c9901b1ec9cc2569c1f43b679e715b6aa3bf28c86575de539f6203ec3a059410",
+        "sha256_in_prefix": "c9901b1ec9cc2569c1f43b679e715b6aa3bf28c86575de539f6203ec3a059410",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/logo.png",
+        "path_type": "hardlink",
+        "sha256": "4bbe72713fa329c43b762b583d2933895a50c9b135e5b5f632574b306ca19ba1",
+        "sha256_in_prefix": "4bbe72713fa329c43b762b583d2933895a50c9b135e5b5f632574b306ca19ba1",
+        "size_in_bytes": 2370
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/page.png",
+        "path_type": "hardlink",
+        "sha256": "592b3e2153045496f04dfda72fffec66617ad3b0bae478ca84b1b083bdc79c0b",
+        "sha256_in_prefix": "592b3e2153045496f04dfda72fffec66617ad3b0bae478ca84b1b083bdc79c0b",
+        "size_in_bytes": 3102
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/page_bg.png",
+        "path_type": "hardlink",
+        "sha256": "093e9598f8b5e3032dd426b340923a210cd1282dd052b337468ddd05131380de",
+        "sha256_in_prefix": "093e9598f8b5e3032dd426b340923a210cd1282dd052b337468ddd05131380de",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/spinner.gif",
+        "path_type": "hardlink",
+        "sha256": "1d454c4bb51bb78f82f9bcbb48b204f9a53db8d214dae02d1f7c7273822abaa5",
+        "sha256_in_prefix": "1d454c4bb51bb78f82f9bcbb48b204f9a53db8d214dae02d1f7c7273822abaa5",
+        "size_in_bytes": 2037
+      },
+      {
+        "_path": "share/doc/qt6/global/template/images/sprites-combined.png",
+        "path_type": "hardlink",
+        "sha256": "79be67ef6e8b4f6dfa894f7d3cf1d2a69988c6ede0844af6b75d3b66f66e3488",
+        "sha256_in_prefix": "79be67ef6e8b4f6dfa894f7d3cf1d2a69988c6ede0844af6b75d3b66f66e3488",
+        "size_in_bytes": 53964
+      },
+      {
+        "_path": "share/doc/qt6/global/template/scripts/extras.js",
+        "path_type": "hardlink",
+        "sha256": "c4b9267be24584ebc73833422f55cd3ec2caa69e0935b107334a5eecbd49a21b",
+        "sha256_in_prefix": "c4b9267be24584ebc73833422f55cd3ec2caa69e0935b107334a5eecbd49a21b",
+        "size_in_bytes": 2540
+      },
+      {
+        "_path": "share/doc/qt6/global/template/scripts/main.js",
+        "path_type": "hardlink",
+        "sha256": "a0b090a1ce644cb323ce6e99dc36dc00cfa1eaacda114d99bef80ab774fb5f10",
+        "sha256_in_prefix": "a0b090a1ce644cb323ce6e99dc36dc00cfa1eaacda114d99bef80ab774fb5f10",
+        "size_in_bytes": 8922
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/cookie-confirm.css",
+        "path_type": "hardlink",
+        "sha256": "b7a2f0b3ec105ae7aeaed8621babeb7c9cb132a2d84ed4817224c960ca363046",
+        "sha256_in_prefix": "b7a2f0b3ec105ae7aeaed8621babeb7c9cb132a2d84ed4817224c960ca363046",
+        "size_in_bytes": 9037
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/cookiebar-x.png",
+        "path_type": "hardlink",
+        "sha256": "7785657e0faca85f5f311feb44d8362092f31d3a39e70e926c2f3eb67323f867",
+        "sha256_in_prefix": "7785657e0faca85f5f311feb44d8362092f31d3a39e70e926c2f3eb67323f867",
+        "size_in_bytes": 3680
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/doc_search.png",
+        "path_type": "hardlink",
+        "sha256": "e380d8c12499aa4ac9db3eb78d4834a7d23a0ade30a974e6e5f63622f4b2ea47",
+        "sha256_in_prefix": "e380d8c12499aa4ac9db3eb78d4834a7d23a0ade30a974e6e5f63622f4b2ea47",
+        "size_in_bytes": 2151
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/gsc.css",
+        "path_type": "hardlink",
+        "sha256": "e6e529d3c6cb3cb98434ccc7c9666399e2685180cbd803d29d10412da3a81fda",
+        "sha256_in_prefix": "e6e529d3c6cb3cb98434ccc7c9666399e2685180cbd803d29d10412da3a81fda",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/htmltabs.css",
+        "path_type": "hardlink",
+        "sha256": "39c7b037286c67eb396af56e053f68168e80bad09e3bedac93d12cbbdd123c1d",
+        "sha256_in_prefix": "39c7b037286c67eb396af56e053f68168e80bad09e3bedac93d12cbbdd123c1d",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/icomoon.eot",
+        "path_type": "hardlink",
+        "sha256": "b5758b47352a4224470bcd3a6c66436aae8b39c9bb00070f4717e2ba4740b7ea",
+        "sha256_in_prefix": "b5758b47352a4224470bcd3a6c66436aae8b39c9bb00070f4717e2ba4740b7ea",
+        "size_in_bytes": 4624
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/icomoon.svg",
+        "path_type": "hardlink",
+        "sha256": "16515e19d76e3556672db8f4c490ab3a7645189a3f392cb939be33c0d470e2aa",
+        "sha256_in_prefix": "16515e19d76e3556672db8f4c490ab3a7645189a3f392cb939be33c0d470e2aa",
+        "size_in_bytes": 10592
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/icomoon.ttf",
+        "path_type": "hardlink",
+        "sha256": "bc48f82c01e68db8159387ad7ad636e5fe65c8978fda9ea8554f9bac92098193",
+        "sha256_in_prefix": "bc48f82c01e68db8159387ad7ad636e5fe65c8978fda9ea8554f9bac92098193",
+        "size_in_bytes": 4460
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/icomoon.woff",
+        "path_type": "hardlink",
+        "sha256": "18bd9d920e74c92b1018e0e885035d62c2c20387bbcbbadae111e0e1f7d5e13a",
+        "sha256_in_prefix": "18bd9d920e74c92b1018e0e885035d62c2c20387bbcbbadae111e0e1f7d5e13a",
+        "size_in_bytes": 4536
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/list_arrow.png",
+        "path_type": "hardlink",
+        "sha256": "b914bab09fe59119e8edf4d4abc8023ba3c9ac0aded4f8eb6a9379b3b6642e93",
+        "sha256_in_prefix": "b914bab09fe59119e8edf4d4abc8023ba3c9ac0aded4f8eb6a9379b3b6642e93",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/list_expand.png",
+        "path_type": "hardlink",
+        "sha256": "5aeebe3ac150856b694bb52be4f5faf065339007ef516193bac64eb28f6658ed",
+        "sha256_in_prefix": "5aeebe3ac150856b694bb52be4f5faf065339007ef516193bac64eb28f6658ed",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/offline-dark.css",
+        "path_type": "hardlink",
+        "sha256": "a51bc4a6a3738e0cc94ed4d2277a248c24039dc09f1bb52f0441177e0d6920ee",
+        "sha256_in_prefix": "a51bc4a6a3738e0cc94ed4d2277a248c24039dc09f1bb52f0441177e0d6920ee",
+        "size_in_bytes": 12203
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/offline-simple.css",
+        "path_type": "hardlink",
+        "sha256": "27af591c45d631876636e207379b9794f24357b508784b77891edb2a2bd87244",
+        "sha256_in_prefix": "27af591c45d631876636e207379b9794f24357b508784b77891edb2a2bd87244",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/offline.css",
+        "path_type": "hardlink",
+        "sha256": "f2b29fac394a75f3387340d25b6c72e6f6420ba7b0f141afb787fa6f124be9bd",
+        "sha256_in_prefix": "f2b29fac394a75f3387340d25b6c72e6f6420ba7b0f141afb787fa6f124be9bd",
+        "size_in_bytes": 12981
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/online.css",
+        "path_type": "hardlink",
+        "sha256": "7ae7a12c4a84c08c88cb9f58f7cea92da8fc896cac3ccc90a026ddfb3907513d",
+        "sha256_in_prefix": "7ae7a12c4a84c08c88cb9f58f7cea92da8fc896cac3ccc90a026ddfb3907513d",
+        "size_in_bytes": 32805
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/tech_preview.svg",
+        "path_type": "hardlink",
+        "sha256": "1624c33240d3950ecea899887f31f46ef53a158f8fd47baf8893886b60512fce",
+        "sha256_in_prefix": "1624c33240d3950ecea899887f31f46ef53a158f8fd47baf8893886b60512fce",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "share/doc/qt6/global/template/style/theqtcompany.png",
+        "path_type": "hardlink",
+        "sha256": "8f8a7bf4ee956e66722db4b6209dfe4ced456940f3b5906a627d802d5cedf89e",
+        "sha256_in_prefix": "8f8a7bf4ee956e66722db4b6209dfe4ced456940f3b5906a627d802d5cedf89e",
+        "size_in_bytes": 31759
+      },
+      {
+        "_path": "share/doc/qt6/global/warninglimit.qdocconf",
+        "path_type": "hardlink",
+        "sha256": "658aadc381b9bced1faea946d311194763b5350c1c301b6b9ebfdb1d22214efe",
+        "sha256_in_prefix": "658aadc381b9bced1faea946d311194763b5350c1c301b6b9ebfdb1d22214efe",
+        "size_in_bytes": 247
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9759c724de2d52198afb72000ed66de3deb234b09fd82ed314efd7ab9f02fad4",
+  "size": 12478438,
+  "subdir": "linux-64",
+  "timestamp": 1753960064000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/qtbase-6.7.3-h10a5587_4.conda",
+  "version": "6.7.3"
+}

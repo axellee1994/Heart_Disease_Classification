@@ -1,0 +1,35 @@
+{
+  "build": "py313h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "tornado >=5",
+    "pyqt >=5",
+    "matplotlib-base >=3.10.0,<3.10.1.0a0"
+  ],
+  "extracted_package_dir": "/home/axlee/miniconda3/pkgs/matplotlib-3.10.0-py313h06a4308_1",
+  "files": [],
+  "fn": "matplotlib-3.10.0-py313h06a4308_1.conda",
+  "license": "LicenseRef-PSF-based",
+  "link": {
+    "source": "/home/axlee/miniconda3/pkgs/matplotlib-3.10.0-py313h06a4308_1",
+    "type": 1
+  },
+  "md5": "5ae3a02708e30305f29dea5ddf56ea05",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/home/axlee/miniconda3/pkgs/matplotlib-3.10.0-py313h06a4308_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "48d9a80fe341ea835885c713a502b7372d50e4a78320d472ed6ed2a5dfa013b3",
+  "size": 6905,
+  "subdir": "linux-64",
+  "timestamp": 1739558946000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/matplotlib-3.10.0-py313h06a4308_1.conda",
+  "version": "3.10.0"
+}
