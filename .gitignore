@@ -11,4 +11,15 @@ __pycache__/
 *.so
 
 # Ignore Jupyter Notebook checkpoints
-*.ipynb
+*.ipynb_checkpoints
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
