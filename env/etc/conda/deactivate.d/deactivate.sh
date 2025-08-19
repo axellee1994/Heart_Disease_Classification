@@ -1,1 +1,0 @@
-unset __EGL_VENDOR_LIBRARY_DIRS
